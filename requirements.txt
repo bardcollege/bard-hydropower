@@ -1,3 +1,4 @@
+google-python-cloud-debugger
 flask-jsglue==0.3.1
 pathtools==0.1.2
 argh==0.26.2

@@ -10,6 +10,12 @@ from flask_jsglue import JSGlue
 from flaskext.markdown import Markdown
 import requests
 
+try:
+    import googleclouddebugger
+    googleclouddebugger.enable()
+except ImportError:
+    pass
+
 
 # ----------------------------------------------------------------------------
 # APPLICATION SETUP
